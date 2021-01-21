@@ -13,7 +13,6 @@ Please select the option you would like to refer to:
 + [Contact us](#opt6)
 <br>
 <br>
-
 ### <a id='opt1'>Introduction
 </a>
 
@@ -92,8 +91,8 @@ Lico Provide serval image docker node for different Machine Learning platform, t
 Fill in the job information as required,please noted that job Name can contain only letters, digits, and underscores (_).
 
 The Workspace is the working directory fo your program, if you use relative directory in your program, please do use the correct workspace.
-![Section5 - img2](11.png)
-![Section5 - img3](12.png)
+![Section5 - img3](11.png)
+![Section5 - img4](12.png)
 
 You can either directly run the python or run a shell script since you may need to run serval program in one task or show the cpu/gpu info log.
 Do rememeber to specified the python version you use (e.g. python3) in the shell script since python 2 and python 3 may exist at the same time in the docker.
@@ -101,8 +100,8 @@ Do rememeber to specified the python version you use (e.g. python3) in the shell
 A simple shell script example:
 "python3 scikit.py"
 
-After the job is submitted, you can check the status in "jobs", the log will contains the output of your program, here we take Boston real estate price estimation as an example. The mean_absolute_error of the prediction is shown as 3.27086
-![Section5 - img3](13.png)
+After the job is submitted, you can check te status in "jobs", the log will contains the output of your program, here we take Boston real estate price estimation as an example. The mean_absolute_error of the prediction is shown as 3.27086
+![Section5 - img5](13.png)
 <br>
 
 ### <a id='opt6'>Contact us
